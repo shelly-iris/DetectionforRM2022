@@ -1,0 +1,149 @@
+%YAML:1.0
+---
+date: "07-26-22:46:15"
+name: head_cam
+type: 1
+guid: ""
+dev_index: 0
+VideoPath: "/home/shelly/ks/bin/dafu.avi"
+width: 600
+height: 480
+fps: 100
+pixel_format: 1
+ParamNumber:
+   operator_armor_yaw_offset: 0
+   operator_armor_pitch_offset: 0
+   operator_buff_yaw_offset_18: 0
+   operator_buff_pitch_offset_18: 0
+   operator_buff_yaw_offset_30: 0
+   operator_buff_pitch_offset_30: 0
+
+#   operator_lob_yaw_offset: 5
+#   operator_lob_pitch_offset: 6
+#   operator_lob_yaw_offset: 5
+#   operator_lob_pitch_offset: 6
+
+   ArmorDetect_lightbarthre: 140.
+   DebugWork: 1.
+   DistCamToWorld: 1.2720000000000001e+01
+   EnemyColor: 2.
+   EnergyBuffDetect_dialesize: 1.
+   EnergyBuffDetect_dialetimes: 0.
+   EnergyBuffDetect_erodesize: 1.
+   EnergyBuffDetect_erodetimes: 0.
+   EnergyBuffDetect_gray_thre: 100.
+   EnergyBuffDetect_split_thre: 10.
+   OurColor: 0.
+   Baitian: 1.
+   Lock: 0.
+   SrcHeight: 1080.
+   SrcWidth: 1440.
+   VideoRecordWork: 0.
+   firing_rate: 20.
+   gun_height: 1.2350000000000000e-01
+   pitch_k: 2.2200000000000000e-01
+   qY_time_diff_coff: 2.0000000000000000e-03
+   thea: 200.
+   Follow_Yaw_offset: -0.005 #15
+   Follow_Pitch_offset: 0.03 #15
+   Follow_Yaw_offset_L: 1.0000000000000000e-02
+   Follow_Pitch_offset_L: -1.0000000000000000e-02
+   Follow_Yaw_offset_R: -1.4999999999999999e-02
+   Follow_Pitch_offset_R: -4.0000000000000001e-02
+   Spin_Yaw_offset: 0.
+   Spin_Pitch_offset: 0.
+   Spin_Yaw_offset_L: 1.0000000000000000e-02
+   Spin_Pitch_offset_L: -1.0000000000000000e-02
+   Spin_Yaw_offset_R: -1.4999999999999999e-02
+   Spin_Pitch_offset_R: -4.0000000000000001e-02
+   Constants_in_rY: 2.0000000000000001e-01
+   Squared_in_rY: 0.
+   Variance_in_rY: 0.
+   Distance_in_rY: 0.
+   time_match_diff_in_rY: 0.
+   qY_time_diff_: 2.0000000000000000e-03
+   qY_YawStateDiff_: 0.
+   Constants_in_dis: 1.0000000000000001e-01
+   Distance_in_dis: 4.0000000000000001e-02
+   time_match_diff_in_dis: 5.9999999999999998e-01
+   qDis_time_diff_: 1.0000000000000000e-03
+   deltaX_limit: 10.
+   deltaY_limit: 8.
+   camera_pitch: -1.7000000000000001e-02
+   camera_yaw: -1.0000000000000000e-03
+   command_y: 4.
+   bigbuff_deta_r: 3
+   bigbuff_deta_g: 5
+   smallbuff_deta_r: 3
+   smallbuff_deta_g: 5
+   force_deta: 100.
+   control_deta_r: 10.
+   control_deta_g: 10.
+   predict_time: 600.
+   fire_intervel: 110.
+   pre_guai: 1.0000000000000001e-01
+   smallbuff_interval_30: 5
+   bigbuff_interval_30: 5
+   smallbuff_interval_18: 7
+   bigbuff_interval_18: 7
+   bigbuff_pretime: 600.
+   Follow_Is_LobUse: 0.
+   lob_pitch_offset: 0.
+   lob_yaw_offset: 1.6000000000000000e-02
+   LobThreshold: 240.
+   LobThreshold2: 99.
+   Buff_Yaw_Offset_18: 0.008
+   Buff_Pitch_Offset_18: 1.7000000000000001e-02
+   Buff_Yaw_Offset_30: -0.004
+   Buff_Pitch_Offset_30: 0.020
+   Control_Time_18: 200.
+   Control_Time_30: 200.
+   Buff_Kalman_Q: 0.1
+   Buff_Kalman_R: 0.
+   Buff_is_move: 1.
+   Buff_Fire_Mode: 0
+   Point_to_R: 0
+   Buff_will_change: 0.
+   Buff_show: 0.
+   Sample_extract: 0
+   idea_distance: 730
+   idea_yaw(left-right+): 0
+   Operator_Point_to_R: 0 #需要能驱动Point_to_R
+   Buff_log_cout: 1
+   Buff_recognize_method: 1 #0是轮廓筛选,1是RGB
+   Buff_lastquick: 0 #是否开启最后一发快速击打
+
+
+ParamString:
+   new_data2: ""
+   put_your_String_param: shit
+ParamMatrix:
+   {}
+CameraParam:
+   balance_blue: -1.
+   balance_green: -1.
+   balance_red: -1.
+   balance_val: -1.
+   black_level: 240.
+   brightness: 100.
+   contrast: -1.
+   exposure: 20000.
+   gain: -1.
+   gamma: 0.400
+   hue: 128.
+   saturation: -1.
+   sharpness: -1.
+   trigger: 1.
+matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.8562177274146818e+03, 0., 7.2290551501265531e+02, 0.,
+       1.8890513669442355e+03, 5.3168186548207291e+02, 0., 0., 1. ]
+dist_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -4.4037192759324639e-01, 1.8728096567208450e+00,
+       1.4927778653940953e-02, 9.5580949280080988e-04,
+       -6.1290306811380022e+00 ]
